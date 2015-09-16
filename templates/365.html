@@ -1,0 +1,29 @@
+<ion-view view-title="365 Dias">
+  <ion-content style="margin: 3%;">
+    <div class="list">
+
+      <label class="item item-input item-select">
+        <div class="input-label">
+          Categorias
+        </div>
+        <select ng-model="catSelecionada" ng-options="item.categoria for item in categorias">
+          <option value="">Escolha</option>
+        </select>
+      </label>
+      <div ng-if="catSelecionada">
+        <h4 ng-bind="catSelecionada.categoria" style="text-align: center; margin-top: 3%;"></h4>
+
+
+        <div class="card" ng-repeat="item in mostrar | filter: catSelecionada.categoria">
+        <div class="item item-text-wrap">
+        <p ng-bind="item.texto"></p>
+        <br>
+        <div style="margin: 0 auto;" ><button class="button button-small button-block" ng-click="openPopup(item)">Leia Aqui</button></div>
+        </div>
+        </div>
+
+      </div>
+
+    </div>
+  </ion-content>
+</ion-view>

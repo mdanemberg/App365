@@ -1,0 +1,28 @@
+<ion-modal-view>
+  <ion-header-bar>
+    <h1 class="title">Mensagem</h1>
+    <div class="buttons">
+      <button class="button button-clear" ng-click="closePopup()">Fechar</button>
+    </div>
+  </ion-header-bar>
+  <ion-content>
+    <div class="card">
+  <div class="item item-text-wrap">
+    <h2 ng-bind="popupMostrar.categoria" style="text-align: center; margin-top: 3%;" class="item item-text-wrap"></h2>
+    <p ng-bind="popupMostrar.texto"></p>
+    <img class="full-image" src="{{imagem}}" style="img { max-width:50%;}">
+
+  </div>
+  <div class="item tabs tabs-secondary tabs-icon-left">
+    <a class="tab-item" href="adcionarFavoritos(mostrar)" ng-if="popupMostrar.favorito == 0">
+      <i class="icon ion-android-favorite-outline"></i>
+      Adicionar aos Favoritos
+    </a>
+    <a class="tab-item" href="removerFavoritos(mostrar)" ng-if="popupMostrar.favorito == 1">
+      <i class="icon ion-android-favorite"></i>
+      Remover dos Favoritos
+    </a>
+  </div>
+</div>
+  </ion-content>
+</ion-modal-view>

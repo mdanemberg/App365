@@ -1,0 +1,26 @@
+<ion-view view-title="Frase do Dia">
+  <ion-content>
+    <div class="list card">
+
+  <div class="item item-body">
+    <h2 ng-bind="mostrar.categoria" style="text-align: center; margin-top: 3%;"></h2>
+    <img class="full-image" src="{{imagem}}" style="img { max-width:50%;}">
+
+    <p ng-bind="mostrar.texto"></p>
+  </div>
+
+  <div class="item tabs tabs-secondary tabs-icon-left">
+    <a class="tab-item" href="adcionarFavoritos(mostrar)" ng-if="mostrar.favorito == 0">
+      <i class="icon ion-android-favorite-outline"></i>
+      Adicionar aos Favoritos
+    </a>
+    <a class="tab-item" href="removerFavoritos(mostrar)" ng-if="mostrar.favorito == 1">
+      <i class="icon ion-android-favorite"></i>
+      Remover dos Favoritos
+    </a>
+  </div>
+
+</div>
+
+  </ion-content>
+</ion-view>
