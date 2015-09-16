@@ -1,41 +1,35 @@
-{ "mensagens" :[
-
-  {"categoria": "1","texto": "1","liberado": "1","favorito": "1"},
-  {"categoria": "2","texto": "2","liberado": "1","favorito": "1"},
-  {"categoria": "3","texto": "3","liberado": "0","favorito": "1"}
-
+{ "mensagens": [
+    {"categoria": "1","texto": "1","liberado": "1","favorito": "1"},
+    {"categoria": "2","texto": "2","liberado": "1","favorito": "1"},
+    {"categoria": "3","texto": "3","liberado": "0","favorito": "1"}
   ]
-}
-
-{ "categorias" :[
-  { "categoria": "1"},
-  { "categoria": "2"},
-  { "categoria": "3"}
-
+},
+{ "categorias": [
+    { "categoria": "1"},
+    { "categoria": "2"},
+    { "categoria": "3"}
   ]
-}
-
+},
 { "imagens" :[
-  { "link": "img/fotos/1.png"},
-  { "link": "img/fotos/2.jpg"},
-  { "link": "img/fotos/3.jpg"},
-  { "link": "img/fotos/4.jpg"},
-  { "link": "img/fotos/5.jpg"},
-  { "link": "img/fotos/6.jpg"},
-  { "link": "img/fotos/7.jpg"},
-  { "link": "img/fotos/8.jpg"},
-  { "link": "img/fotos/9.jpg"},
-  { "link": "img/fotos/10.jpg"},
-  { "link": "img/fotos/11.jpg"},
-  { "link": "img/fotos/12.jpg"},
-  { "link": "img/fotos/13.jpg"},
-  { "link": "img/fotos/14.jpg"},
-  { "link": "img/fotos/15.jpg"},
-  { "link": "img/fotos/16.jpg"},
-  { "link": "img/fotos/17.jpg"},
-  { "link": "img/fotos/18.jpg"},
-  { "link": "img/fotos/19.jpg"},
-  { "link": "img/fotos/20.jpg"}
-
+    { "link": "img/fotos/1.png"},
+    { "link": "img/fotos/2.jpg"},
+    { "link": "img/fotos/3.jpg"},
+    { "link": "img/fotos/4.jpg"},
+    { "link": "img/fotos/5.jpg"},
+    { "link": "img/fotos/6.jpg"},
+    { "link": "img/fotos/7.jpg"},
+    { "link": "img/fotos/8.jpg"},
+    { "link": "img/fotos/9.jpg"},
+    { "link": "img/fotos/10.jpg"},
+    { "link": "img/fotos/11.jpg"},
+    { "link": "img/fotos/12.jpg"},
+    { "link": "img/fotos/13.jpg"},
+    { "link": "img/fotos/14.jpg"},
+    { "link": "img/fotos/15.jpg"},
+    { "link": "img/fotos/16.jpg"},
+    { "link": "img/fotos/17.jpg"},
+    { "link": "img/fotos/18.jpg"},
+    { "link": "img/fotos/19.jpg"},
+    { "link": "img/fotos/20.jpg"}
   ]
 }
